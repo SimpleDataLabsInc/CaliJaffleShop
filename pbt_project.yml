@@ -112,6 +112,14 @@ sqlSeeds:
     - seeds/raw_payments.csv
     createdAt: '2023-04-12 15:35:01'
     modifiedAt: '2023-04-12 15:35:01'
+  .prophecy/metadata/sqlseeds/raw_shipments:
+    name: raw_shipments
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - seeds/raw_shipments.csv
+    createdAt: '2023-05-01 14:52:24'
+    modifiedAt: '2023-05-01 14:52:24'
 sqlSources:
   .prophecy/metadata/sqlsources/main_default:
     name: main.default
@@ -132,6 +140,24 @@ sqlSources:
       author: maciej@prophecy.io
       createdAt: '2023-04-12 15:42:16'
       modifiedAt: '2023-04-12 15:42:16'
+  .prophecy/metadata/sqlsources/raw_received:
+    name: raw_received
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - prophecy-sources/raw_received.yml
+    createdAt: '2023-05-01 14:55:13'
+    modifiedAt: '2023-05-01 14:55:13'
+    tables: []
+  .prophecy/metadata/sqlsources/raw_test_source:
+    name: raw_test_source
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - prophecy-sources/raw_test_source.yml
+    createdAt: '2023-05-01 15:08:12'
+    modifiedAt: '2023-05-01 15:08:12'
+    tables: []
 sqlUnreferencedSources: {}
 sqlPipeline:
   name: sqlPipeline
